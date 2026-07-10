@@ -153,7 +153,6 @@ img {
   padding-left: 20px;
   margin: 15px 0;
   /* width: 300px; */
- 
 }
 .price {
   color: #000102;
@@ -181,4 +180,5 @@ img {
 .multi-btn {
   color: #ffffff;
   background-color: #1d4ed8;
-  
+  margin-top: 30px;
+}
