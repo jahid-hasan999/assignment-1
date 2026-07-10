@@ -79,3 +79,33 @@ a {
   align-items: center;
   margin-top: 200px;
 }
+/* meet the speaker */
+.meet-section {
+  text-align: center;
+  padding: 20px 0;
+  margin: 30px;
+  font-weight: bold;
+  font-size: 50px;
+  color: #000102;
+}
+.meet-the-speaker {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  text-align: center;
+  margin: 50px;
+}
+.same-div4,
+img {
+  border-radius: 20px;
+  border: #ededed solid 0.1px;
+}
+
+.speaker-p {
+  color: #575757;
+  padding: 10px;
+}
+.meet {
+  color: #2563eb;
+  padding: 10px;
+}
