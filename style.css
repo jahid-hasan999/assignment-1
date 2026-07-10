@@ -2,25 +2,39 @@
   margin: 0;
   padding: 0;
 }
+/* NAV BAR */
 nav {
   display: flex;
   justify-content: space-between;
   padding: 10px 0;
   margin: 15px auto;
 }
-ul {
+
+.nav-ul {
   display: flex;
   list-style: none;
   gap: 15px;
   align-items: center;
 }
-ul,
-li,
+/* ul {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+  align-items: center;
+} */
+.nav-li,
 a {
   text-decoration: none;
   font-size: 15px;
   color: #575757;
 }
+/* ul,
+li,
+a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #575757;
+} */
 
 .container {
   max-width: 1320px;
@@ -109,3 +123,62 @@ img {
   color: #2563eb;
   padding: 10px;
 }
+/* secure your spot */
+
+.your-spot {
+  text-align: center;
+  font-size: 45px;
+  padding: 6px 0;
+  margin: 20px auto;
+}
+
+.datespot {
+  text-align: center;
+  color: #575757;
+}
+.sport-parent {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  text-align: center;
+  padding: 20px 0;
+  margin: 20px;
+}
+.chila-sport {
+  border: solid 0.1px #e3e2e2;
+  text-align: left;
+  color: #575757;
+  font-size: 15px;
+  border-radius: 10px;
+  padding-left: 20px;
+  margin: 15px 0;
+  /* width: 300px; */
+ 
+}
+.price {
+  color: #000102;
+}
+.standard {
+  color: #000102;
+  padding: 5px;
+  text-align: left;
+}
+.spot-hr {
+  margin: 10px 0;
+}
+.multi-class {
+  background-color: #0d1a2b;
+  color: #ffffff;
+}
+.button {
+  border: solid 01px cadetblue;
+  text-align: center;
+  align-items: center;
+  padding: 8px 15px;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+.multi-btn {
+  color: #ffffff;
+  background-color: #1d4ed8;
+  
