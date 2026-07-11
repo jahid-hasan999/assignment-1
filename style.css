@@ -22,7 +22,6 @@ a {
   text-decoration: none;
   font-size: 20px;
   color: #575757;
-  
 }
 
 .container {
@@ -74,13 +73,14 @@ a {
   color: hwb(0 100% 0%);
   font-size: 20px;
   opacity: 0.7;
-  width: 550px;
+  max-width: 550px;
+  width: 100%;
   margin: 20px auto;
 }
 .second-btn {
   text-align: center;
   align-items: center;
-  margin-top: 200px;
+ 
 }
 /* meet the speaker */
 .meet-section {
@@ -98,7 +98,7 @@ a {
   text-align: center;
   margin: 50px;
 }
-.same-div4,
+.same-container,
 img {
   border-radius: 20px;
   border: #ededed solid 0.1px;
@@ -141,7 +141,6 @@ img {
   border-radius: 10px;
   padding-left: 20px;
   margin: 15px 0;
- 
 }
 .price {
   color: #000102;
@@ -166,10 +165,9 @@ img {
   margin: 10px auto;
   border-radius: 10px;
 }
-.button:hover{
+.button:hover {
   background-color: rgb(68, 68, 140);
   cursor: pointer;
-
 }
 .multi-btn {
   color: #ffffff;
@@ -180,7 +178,7 @@ img {
 .footer-main {
   display: flex;
   justify-content: space-around;
-  /* justify-content: center; */
+
   gap: 20px;
 }
 .dev-multi {
@@ -193,24 +191,24 @@ img {
   display: flex;
   gap: 8px;
 
-  /* padding: 5px 10px; */
   margin: 10px auto;
 }
 .dev-p {
   width: 300px;
-  padding-left: 10px 0;
+  padding-left: 10px;
   margin-top: 100px;
 }
 h3 {
   font-size: 30px;
-  margin: 20px;font-style: italic;
- 8;
+  margin: 20px;
+  font-style: italic;
 }
 .social-item {
   margin: 10px;
 }
-.fr-dev {
-  width: 1000px;
+.hr-dev {
+  max-width: 1000px;
+  width: 100%;
   text-align: center;
   align-items: center;
   margin: 20px auto;
